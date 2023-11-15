@@ -1,0 +1,45 @@
+table {
+    width : 70%;
+    background-color: blue;
+    border: solid #c0c0c0 1px;
+    padding: 10px;
+}
+
+*{
+    margin : 0 auto
+}
+
+th {
+    background-color: blueviolet;
+    color: white;
+    text-align:  left; 
+    padding : 5px 10px;
+}
+
+
+td {
+    
+    border : solid #ededed;
+    padding: 5px 10px;
+    color : white;
+    
+}
+
+a:link {
+    color: white;
+    text-decoration: greenyellow;
+    
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color:  #00FF00;
+}
+
+a:active{
+    background-color: #FFFF00;
+}

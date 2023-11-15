@@ -1,0 +1,43 @@
+
+<html>
+    <head>
+        <title>Projeto Web Cadastramento de Produtos</title>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form method="post" action="salvar_produtos.jsp">
+            
+            
+            <p>
+                <label for="codigo">Codigo :</label>
+                <input type="number" name="codigo" id="codigo"  > 
+            </p>
+            
+            <p>
+                <label for="nome"  >Nome do Produto :</label>
+                <input type="text" name="nome" id="nome" size="50" maxlength="50" >
+                
+            </p>
+            
+            
+            <p>
+                <label for="marca"> Marca do Produto :</label>
+                <input type="text" name="marca" id="marca" maxlength="50"  >
+                
+            </p>
+            
+            <p>
+                <label for="preco"> Preço do Produto :</label>
+                <input type="number" step="0.1" name="preco" id="preco"  >
+                
+            </p>
+            
+            <p>
+                <input type="submit" value="Salvar">
+            </p>
+        </form>
+            
+    </body>
+</html>
